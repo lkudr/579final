@@ -16,6 +16,9 @@ const textarea = document.getElementById("text_area");
 const italics = document.getElementById("italics");
 const bold = document.getElementById("bold");
 const size_slider = document.getElementById("size");
+const standard = document.getElementById("standard");
+const comic = document.getElementById("comic");
+const papyrus = document.getElementById("papyrus");
 
 function generateText() {
     let txt = textinput.value;
@@ -34,6 +37,13 @@ function generateText() {
         textarea.style.fontWeight = "bold";
     } else {
         textarea.style.fontWeight = "normal";
+    }
+    if (standard.checked) {
+        textarea.style.fontFamily = "Avenir, sans-serif";
+    } else if (comic.checked) {
+        textarea.style.fontFamily = "'Comic Sans MS', 'Comic Sans', cursive";
+    } else {
+        textarea.style.fontFamily = "'Papyrus', fantasy";
     }
 }
 
