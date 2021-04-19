@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/woah.css">
+    <title>Mindfulness Exercises - Defusion</title>
+  </head>
+  <body>
+    <!-- <a class = "skip" href="#skip">Skip to Main Content</a> -->
+    <header>
+      <div class="nav_container">
+      <nav>
+        <ul class="nav_links">
+          <li class="nav_item"><a href="index.html">Breathing</a></li>
+          <li class="nav_item"><a href="visualization.html">Visualization</a></li>
+          <li class="nav_item current"><a href="defusion.html">Defusion</a></li>
+          <li class="nav_item"><a href="distraction.html">Distraction</a></li>
+        </ul>
+      </nav>
+      </div>
+    </header>
+    <main class="about" id="skip">
+        <h1>Defusion</h1>
+        <div class="defusion_controls">
+            <label for="textbox">What are you anxious about?</label> <br>
+            <input type="text" id="textbox" name="textbox"><br>  
+            <label for="color_well">Color:</label>
+            <input type="color" value="#ff0000" id="color_well"><br>
+            <label for="italics">Italics</label>
+            <input type="checkbox" id="italics" name="style" value="italics">
+            <label for="bold">Bold</label>
+            <input type="checkbox" id="bold" name="style" value="bold"><br>
+            <label for="size">Size</label>
+            <input type="range" min="9" max="40" value="12" class="slider" id="size">
+            <button id="defusion_enter">Enter</button> <br>
+            <button id="scramble">Scramble</button>
+            <button id="wowzors">Wowzors</button>
+            <button id="shake">Shake</button>
+            <button id="stop">Stop Animation</button>
+        </div>
+        <p id="text_area"> 
+        </p>
+        <!-- <p class="tlt" data-loop="true">
+            <ul class="texts">
+                <li id="test">Test</li>
+                <li data-in-effect="fadeIn">Another Test</li>    -->
+            <!-- </ul> -->
+        <!-- </p> -->
+    </main>
+    <!-- <script type="text/javascript" src="jquery.min.js"></script> -->
+    <!-- <script type="text/javascript" src="jquery.lettering.js"></script>
+    <script type="text/javascript" src="jquery.fittext.js"></script>
+    <script type="text/javascript" src="jquery.textillate.js"></script> -->
+    <script type="text/javascript" src="js/scrambler.min.js"></script>
+    <script src="js/defusion.js"></script>
+  </body>
+  <footer>
+    <p>2021, Luke Kudryashov. Animations via <a href="https://github.com/Recidvst/scrambling-letters">Scrambler.js</a> and <a href="https://www.joerezendes.com/projects/Woah.css/">Woah.css</a>.</p>
+  </footer>
+</html>

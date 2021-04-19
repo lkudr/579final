@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Mindfulness Exercises - Visualization</title>
+  </head>
+  <body>
+    <!-- <a class = "skip" href="#skip">Skip to Main Content</a> -->
+    <header>
+      <div class="nav_container">
+      <nav>
+        <ul class="nav_links">
+          <li class="nav_item"><a href="index.html">Breathing</a></li>
+          <li class="nav_item current"><a href="visualization.html">Visualization</a></li>
+          <li class="nav_item"><a href="defusion.html">Defusion</a></li>
+          <li class="nav_item"><a href="distraction.html">Distraction</a></li>
+        </ul>
+      </nav>
+      </div>
+    </header>
+    <main class="about" id="skip">
+        <h1>Visualization</h1>
+        <div class="visualization_controls">
+            <label for="textbox">What are you anxious about?</label> <br>
+            <input type="text" id="textbox" name="textbox">
+            <button id="visualization_enter">Enter</button> <br><br>
+            <label for="speed">Speed</label> <br>
+            <input type="range" min="1" max="20" value="10" class="slider" id="speed">
+        </div>
+        <svg width="725" height="530" id="svg">
+        </svg>
+    </main>
+    <script src="js/snap.svg-min.js"></script>
+    <script src="js/visualization.js"></script>
+  </body>
+  <footer>
+    <p>2021, Luke Kudryashov. Animation via <a href="http://snapsvg.io/">Snap.svg</a>. Image from <a href="https://commons.wikimedia.org/w/index.php?curid=4126088">Wikimedia</a>.</p>
+  </footer>
+</html>

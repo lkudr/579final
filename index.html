@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Mindfulness Exercises - Breathing</title>
+  </head>
+  <body>
+    <!-- <a class = "skip" href="#skip">Skip to Main Content</a> -->
+    <header>
+      <div class="nav_container">
+      <nav>
+        <ul class="nav_links">
+          <li class="nav_item current"><a href="index.html">Breathing</a></li>
+          <li class="nav_item"><a href="visualization.html">Visualization</a></li>
+          <li class="nav_item"><a href="defusion.html">Defusion</a></li>
+          <li class="nav_item"><a href="distraction.html">Distraction</a></li>
+        </ul>
+      </nav>
+      </div>
+    </header>
+    <main class="about" id="skip">
+        <h1>Breathing Exercises</h1>
+        <div class="breathing_controls">
+            <button id="box">Box</button>
+            <button id="relaxing">Relaxing</button>
+            <button id="even">Even</button> <br>
+            <label for="in">In</label>
+            <input type="number" id="in" name="in" value="4">
+            <label for="hold1">Hold</label>
+            <input type="number" id="hold1" name="hold1" value="4">
+            <label for="out">Out</label>
+            <input type="number" id="out" name="out" value="4">
+            <label for="hold2">Hold</label>
+            <input type="number" id="hold2" name="hold2" value="4">
+            <button id="breath_enter">Start</button>
+        </div>
+        <svg width="600" height="600" id="svg">
+        </svg>
+    </main>
+    <script src="js/snap.svg-min.js"></script>
+    <script src="js/index.js"></script>
+    <footer>
+      <p>2021, Luke Kudryashov. Animation via <a href="http://snapsvg.io/">Snap.svg</a>.</p>
+    </footer>
+  </body>
+</html>
